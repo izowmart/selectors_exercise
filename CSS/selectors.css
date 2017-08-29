@@ -1,0 +1,66 @@
+/*Give the <body> element a background of #bdc3c7*/
+body {
+	background: #bdc3c7;
+}
+/*Make the <h1> element #9b59b6*/
+h1{
+	color:#9b59b6;
+}
+/*Make all <h2> elements orange*/
+
+h2{
+	color:orange;
+}
+/*Make all <li> elements blue (pick your own hexadecimal blue)*/
+li{
+	color:#4d4dff;
+}
+
+/*Change the background to every paragraph yellow*/
+p{
+	background-color: yellow;
+}
+/*Make all inputs to have a 3px red border*/
+div input{
+	border:3px red solid;
+}
+
+/*Give everything with the class "hello" a white background*/
+.hello{
+background-color: white;
+}
+/*Give the element with id "speacial" a 2px solid blue border (pick your own rgb blue)*/
+#special{
+	border:2px solid rgb(0, 191, 255);
+}
+
+/*Make all the <p>'s that are nested inside the div's 25 px font (font-size: 25 px)*/
+div p{
+	font-size: 25px;
+}
+/*Give the second <p> inside the third div a 5px white border*/
+ div +div +div h2 + p + p{
+	border:5px white groove;
+}
+/*Make the <em> in the 3rd div white and 20px font (font-size: 20px)*/
+div +div + div{
+	font-size: 20px;
+	color: white;
+}
+/*BONUS CHALLENGES*/
+/*You may need to research some other selectors and properties*/
+
+/*Make all the label elements uppercase without changing the HTML (definitley look this one up)*/
+ div label{
+text-transform: uppercase;
+}
+/*Make the first letter of the element with id "special " green and 100px font size (font-size: 100px)*/
+
+/*Make the <h1> element's color change to blue when hovered over*/
+h1:hover{
+	color:blue;
+}
+/*Make the <a> elements that have been visited gray*/
+a:visited{
+	color: grey;
+}

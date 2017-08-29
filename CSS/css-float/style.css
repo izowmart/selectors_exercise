@@ -1,0 +1,24 @@
+body{
+	background-color: teal;
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+.container{
+	overflow: hidden;
+	width:50em;
+	margin: 0 auto;
+
+}
+p{
+	border:4px dashed red;
+}
+.dog1{
+	float:left;
+	margin-right: 20px;
+	
+}
+.small{
+	float:right;
+	margin-left: 20px;
+}

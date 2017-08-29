@@ -1,0 +1,28 @@
+body{
+	background-color:pink;
+	margin:0;
+	padding: 20px;
+	font-size: 100%;
+}
+.container{
+	margin:auto;
+}
+.nav{
+	float:left;
+}
+.center{
+	margin:auto 20%;
+	
+}
+.right{
+	float:right;
+	
+}
+.footer{
+	border:solid green 4px;
+	background-color: green;
+	margin:0 auto;
+	width:100%;
+	height:80px;
+	clear:both;
+}
